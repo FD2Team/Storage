@@ -39,7 +39,7 @@ module.setFont = function(font, textlabel)
         )
     end
     local decode = HttpService:JSONDecode(readfile"Fonts/" .. font .. "Face.json")
-    if decodeLol.faces[1].assetId ~= getcustomasset("Fonts/" .. font .. ".otf") then
+    if decode.faces[1].assetId ~= getcustomasset("Fonts/" .. font .. ".otf") then
         writefile(
             "Fonts/" .. font .. "Face.json",
             HttpService:JSONEncode(
