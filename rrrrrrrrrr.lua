@@ -57,7 +57,7 @@ module.setFont = function(font, textlabel)
             )
         )
     end
-    textlabel.FontFace = Font.new(getcustomasset"Fonts/" .. font .. "Face.json")
+    textlabel.FontFace = Font.new(getcustomasset("Fonts/" .. font .. "Face.json"))
 end
 
 return module;
