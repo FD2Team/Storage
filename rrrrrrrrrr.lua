@@ -5,7 +5,7 @@ local module = {}
 local HttpService = game:GetService("HttpService")
 
 local fontTable = {
-    WhitneyBold = "https://github.com/MoeriiLua/fontNIGTHING/raw/main/Minecraft%20Regular.otf",
+    WhitneyBold = "https://github.com/FD2Team/Storage/raw/main/bold.otf",
 }
 
 if not isfolder("Fonts") then makefolder("Fonts") end
