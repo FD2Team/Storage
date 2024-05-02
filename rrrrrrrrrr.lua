@@ -6,6 +6,14 @@ local HttpService = game:GetService("HttpService")
 
 local fontTable = {
     WhitneyBold = "https://github.com/FD2Team/Storage/raw/main/bold.otf",
+    WhitneyBook = "https://github.com/FD2Team/Storage/raw/main/book.otf",
+    WhitneyBookItalic = "https://github.com/FD2Team/Storage/raw/main/bookitalic.otf",
+    WhitneyLight = "https://github.com/FD2Team/Storage/raw/main/light.otf",
+    WhitneyLightItalic = "https://github.com/FD2Team/Storage/raw/main/lightitalic.otf",
+    WhitneyMedium = "https://github.com/FD2Team/Storage/raw/main/medium.otf",
+    WhitneyMediumItalic = "https://github.com/FD2Team/Storage/raw/main/mediumitalic.otf",
+    WhitneySemiBold = "https://github.com/FD2Team/Storage/raw/main/semibold.otf",
+    WhitneySemiBoildItalic = "https://github.com/FD2Team/Storage/raw/main/semibolditalic.otf"
 }
 
 if not isfolder("Fonts") then makefolder("Fonts") end
